@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body{
+  
+    margin: auto 0;
+    padding: 0;
+   
+  
+}
+
+ .clear{
+     clear:both;
+ }
+.container{
+    width: 80%;
+    margin: 0 auto;
+ 
+}
+
+
+.headercerceve{
+    float: left;
+    display: flex;
+    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ .headergrup{
+     float: left;
+    font-size: 25px;
+     color: white;
+   text-align: center;
+   padding-top: 8px;
+   width: 100%;
+   height: 50px;
+   background-color:rgb(52, 73, 94);
+}
+
+.headergrup span{
+    float: left;
+   padding: 5px 25px 0 25px;
+}
+
+ .headergrup span:hover{
+   color: silver;
+ }
+
+  .iconlar{
+float: left;
+     display: flex;
+     display: inline;
+  flex-direction: row;
+  margin-left: 550px;
+  margin-right: 20px;
+margin-bottom: 3px;
+}
+
+.iconlar a{
+ float:left;
+color:silver;
+padding: 5px;
+
+}
+
+.iconlar a:hover{
+ color: white;
+}
+
+.altfooter{
+  float: left;
+  width: 100%;
+  height: 100px;
+  background-color: silver;
+}
+
+.altfooter img{
+  float: left;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+
+.altfooter span{
+  float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  
+}
+
+.altfooter span:hover{
+  color: rgb(52, 73, 94);
+}
+
+
+
+     .paralax{
+  background-image: url('tajmahal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 80%;
+  height: 300px;
+float: left;
+margin-top: 84px;
+margin-left: 158px;
+
+}
+
+ 
+
+
+.kapsa{
+  float: left;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 158px;
+}
+
+.kapsa .kaleici{
+ width: 500px;
+ height: 450px;
+}
+
+.kapsa2{
+  position: relative;
+  float: left;
+  text-align: center;
+margin-top: 150px;
+margin-right: 250px;
+}
+
+.kapsa2 p{
+  float: left;
+  color: rgb(52, 73, 94);
+  text-align: center;
+  margin-left: 60px;
+}
+
+
+
+.kapsa{
+  float: left;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 158px;
+}
+
+.kapsa .kaleici{
+ width: 350px;
+ height: 300px;
+ margin-right: 158px;
+ margin-top: 15px;
+}
+
+.kapsa2{
+  position: relative;
+  float: left;
+  text-align: center;
+margin-top: 150px;
+margin-right: 250px;
+}
+
+.kapsa2 p{
+  float: left;
+  color: rgb(52, 73, 94);
+  text-align: center;
+  margin-left: 60px;
+  margin-bottom: 40px;
+}
+
+
+.kapsa{
+  float: left;
+  display: flex;
+  margin-top: 15px;
+  margin-left: 158px;
+}
+
+.kapsa .kaleici{
+ width: 500px;
+ height: 450px;
+}
+
+.kapsa2{
+  position: relative;
+  float: left;
+  text-align: center;
+margin-top: 150px;
+margin-right: 250px;
+}
+
+.kapsa2 p{
+  float: left;
+  color: rgb(52, 73, 94);
+  text-align: center;
+  margin-left: 60px;
+}
+
+
+
+footer{
+  width: 80%;
+  height: 350px;
+  position: relative;
+background-color:rgb(52, 73, 94);
+float: left;
+margin-top: 0px;
+margin-left: 158px;
+}
+
+
+footer div#footercontainer {
+  width:1200px;
+  margin:auto;
+position: relative;
+}
+
+footer div#footercontainer div.footerbox {
+  float:left;
+  width:400px;
+  position:relative;
+  text-align: center;
+  padding-top: 50px;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer div#footercontainer div.footerbox h2 {
+  line-height: 30px;
+  font-size:30px;
+  border-bottom: 2px solid  red;
+  width: 350px;
+  padding: 0 15px 0 15px;
+
+}
+
+footer div#footercontainer div.footerbox p{
+ line-height: 30px;
+
+}
+
+
+footer div#footercontainer div.footerbox a img{
+ padding-top: 10px;
+}
+
+footer div#footercontainer div.footerbox b{
+line-height: 300px;
+
+}
+
+ @media screen and (max-width:797px) {
+  
+  .kapsa{
+    float: left;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 158px;
+    background-color: red;
+  }
+  
+  .kapsa .kaleici{
+   width: 500px;
+   height: 450px;
+   background-color: red;
+  }
+  
+  .kapsa2{
+    position: relative;
+    float: left;
+    text-align: center;
+  margin-top: 150px;
+  margin-right: 250px;
+  background-color: red;
+  }
+  
+  .kapsa2 p{
+    float: left;
+    color: rgb(52, 73, 94);
+    text-align: center;
+    margin-left: 60px;
+    background-color: red;
+  }
+  
+  
+  
+  .kapsa{
+    float: left;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 158px;
+    background-color: red;
+  }
+  
+  .kapsa .kaleici{
+   width: 350px;
+   height: 300px;
+   margin-right: 158px;
+   margin-top: 15px;
+   background-color: red;
+  }
+  
+  .kapsa2{
+    position: relative;
+    float: left;
+    text-align: center;
+  margin-top: 150px;
+  margin-right: 250px;
+  background-color: red;
+  }
+  
+  .kapsa2 p{
+    float: left;
+    color: rgb(52, 73, 94);
+    text-align: center;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    background-color: red;
+  }
+  
+  
+  .kapsa{
+    float: left;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 158px;
+    background-color: red;
+  }
+  
+  .kapsa .kaleici{
+   width: 500px;
+   height: 450px;
+   background-color: red;
+  }
+  
+  .kapsa2{
+    position: relative;
+    float: left;
+    text-align: center;
+  margin-top: 150px;
+  margin-right: 250px;
+  background-color: red;
+  }
+  
+  .kapsa2 p{
+    float: left;
+    color: rgb(52, 73, 94);
+    text-align: center;
+    margin-left: 60px;
+    background-color: red;
+  }
+}
+
+
+  @media screen (min-width: 798px) and (max-width:1024px) {
+  
+    .kapsa{
+      float: left;
+      display: flex;
+      margin-top: 15px;
+      margin-left: 158px;
+      background-color: blue;
+    }
+    
+    .kapsa .kaleici{
+     width: 500px;
+     height: 450px;
+     background-color:blue;
+    }
+    
+    .kapsa2{
+      position: relative;
+      float: left;
+      text-align: center;
+    margin-top: 150px;
+    margin-right: 250px;
+    background-color:blue;
+    }
+    
+    .kapsa2 p{
+      float: left;
+      color: rgb(52, 73, 94);
+      text-align: center;
+      margin-left: 60px;
+      background-color:blue;
+    }
+    
+    
+    
+    .kapsa{
+      float: left;
+      display: flex;
+      margin-top: 15px;
+      margin-left: 158px;
+      background-color:blue;
+    }
+    
+    .kapsa .kaleici{
+     width: 350px;
+     height: 300px;
+     margin-right: 158px;
+     margin-top: 15px;
+     background-color:blue;
+    }
+    
+    .kapsa2{
+      position: relative;
+      float: left;
+      text-align: center;
+    margin-top: 150px;
+    margin-right: 250px;
+    background-color:blue;
+    }
+    
+    .kapsa2 p{
+      float: left;
+      color: rgb(52, 73, 94);
+      text-align: center;
+      margin-left: 60px;
+      margin-bottom: 40px;
+      background-color:blue;
+    }
+    
+    
+    .kapsa{
+      float: left;
+      display: flex;
+      margin-top: 15px;
+      margin-left: 158px;
+      background-color:blue;
+    }
+    
+    .kapsa .kaleici{
+     width: 500px;
+     height: 450px;
+     background-color:blue;
+    }
+    
+    .kapsa2{
+      position: relative;
+      float: left;
+      text-align: center;
+    margin-top: 150px;
+    margin-right: 250px;
+    background-color:blue;
+    }
+    
+    .kapsa2 p{
+      float: left;
+      color: rgb(52, 73, 94);
+      text-align: center;
+      margin-left: 60px;
+      background-color:blue;
+    }
+
+
+
+}
